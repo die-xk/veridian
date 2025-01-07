@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://veridian.ai/sitemap.xml
+
+# Prevent access to admin areas
+Disallow: /admin/
+Disallow: /private/
+Disallow: /api/
+
+# Crawl-delay for all bots
+Crawl-delay: 10 
