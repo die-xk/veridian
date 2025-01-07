@@ -104,13 +104,6 @@ const Navbar = () => {
               </div>
 
               <a 
-                href="#features" 
-                className="text-white/90 hover:text-white font-medium transition-colors duration-200 ease-in-out relative group"
-              >
-                Features
-                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200 ease-in-out" />
-              </a>
-              <a 
                 href="#case-studies" 
                 className="text-white/90 hover:text-white font-medium transition-colors duration-200 ease-in-out relative group"
               >
@@ -124,6 +117,13 @@ const Navbar = () => {
                 Training
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200 ease-in-out" />
               </a>
+              <Link 
+                to="/about" 
+                className="text-white/90 hover:text-white font-medium transition-colors duration-200 ease-in-out relative group"
+              >
+                About
+                <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200 ease-in-out" />
+              </Link>
               <button className="bg-white text-[#1c1c1c] px-6 py-2.5 rounded-lg hover:bg-white/90 transition-colors duration-200 ease-in-out shadow-md hover:shadow-lg transform hover:-translate-y-0.5">
                 Contact Us
               </button>
@@ -154,6 +154,13 @@ const Navbar = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
+              </Link>
+              <Link 
+                to="/about" 
+                className="text-white/90 hover:text-white block px-3 py-2 font-medium transition-colors duration-200 ease-in-out"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                About
               </Link>
               <button 
                 className="w-full mt-2 bg-white text-[#1c1c1c] px-6 py-2.5 rounded-lg hover:bg-white/90 transition-colors duration-200 ease-in-out shadow-md"
