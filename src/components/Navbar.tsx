@@ -9,9 +9,9 @@ const Navbar = () => {
 
   const solutions = [
     { name: 'AI Chatbots', path: '/ai-chatbots' },
-    { name: 'Automation', path: '/automation' },
-    { name: 'AI Agents', path: '/ai-agents' },
-    { name: 'Team Training', path: '/team-training' },
+    { name: 'Automation', path: '/building' },
+    { name: 'AI Agents', path: '/building' },
+    { name: 'Team Training', path: '/building' },
   ];
 
   // Close dropdown when clicking outside
@@ -104,14 +104,14 @@ const Navbar = () => {
               </div>
 
               <a 
-                href="#case-studies" 
+                href="/building" 
                 className="text-white/90 hover:text-white font-medium transition-colors duration-200 ease-in-out relative group"
               >
                 Case Studies
                 <span className="absolute bottom-0 left-0 w-full h-0.5 bg-white transform scale-x-0 group-hover:scale-x-100 transition-transform duration-200 ease-in-out" />
               </a>
               <a 
-                href="#training" 
+                href="/building" 
                 className="text-white/90 hover:text-white font-medium transition-colors duration-200 ease-in-out relative group"
               >
                 Training
