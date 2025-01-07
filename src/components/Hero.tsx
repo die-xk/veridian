@@ -26,7 +26,7 @@ const Hero = () => {
 
   return (
     <header className="bg-white pt-20 pb-16 sm:pt-24 sm:pb-20 lg:pt-32 lg:pb-24 mt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <h1 className="text-4xl font-bold tracking-tight sm:text-5xl md:text-6xl">
           <span className="block text-[#1c1c1c] mb-2">Transform Your Business with</span>
           <span className="block text-[#1c1c1c]/80 mt-2">Intelligent AI Solutions</span>
